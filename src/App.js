@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './App.css'
 import Button from "./components/Button";
 import Input from "./components/Input";
-
+import './components/Button.css'
+import './components/Input.css'
 function App() {
     const [inputs, setInputs] = useState(false);
     const [buttonText, setButtonText] = useState('입력하기')
