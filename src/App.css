@@ -11,3 +11,7 @@ button{
   margin-bottom: 10px;
   width:200px;
 }
+
+.first:focus{
+  border-color: blue;
+}
